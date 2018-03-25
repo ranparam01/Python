@@ -5,7 +5,7 @@ matrix=[]
 for _ in range(size):
     row=list(map(int, input().split()))
     matrix.append(row)
-print(matrix)
+# print(matrix)
 
 #print(matrix[-1][0])
 #print(matrix[-2][1])
