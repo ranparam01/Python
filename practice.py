@@ -1,7 +1,9 @@
-s = input()
-zn = s[-2:]
-if zn == "PM" and s[:2] != "12":
-    s = str(12 + int(s[:2])) + s[2:]
-if zn == "AM" and s[:2] == "12":
-    s = "00" + s[2:]
-print (s[:-2])
+s=int(input())
+n,m=0,0
+while (s!=0):
+    n=int(input())
+    m=int(input())
+    if (m==1 or n%2==0):
+        print("2")
+    else:
+        print("1")
